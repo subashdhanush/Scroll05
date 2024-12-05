@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Scrollbar Example</title>
+  <style>
+    .scroll-container {
+      width: 100%; /* Full width of the container */
+      overflow-y: auto; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent content from wrapping to the next line */
+      border: 1px solid #ccc; /* Optional: Add a border for clarity */
+      padding: 10px; /* Optional: Add padding */
+    }
+    
+    .scroll-item {
+      display: inline-block; /* Ensure each item stays in a single line */
+      width: 200px; /* Fixed width for each item */
+      height: 100px; /* Fixed height for each item */
+      background-color: #f0f0f0; /* Light grey background */
+      margin-right: 10px; /* Space between items */
+      text-align: center; /* Center text */
+      line-height: 100px; /* Center text vertically */
+      font-size: 16px; /* Font size for text */
+      border: 1px solid #999; /* Optional: Add a border for clarity */
+    }
+  </style>
+</head>
+<body>
+  <div class="scroll-container">
+    <div class="scroll-item">Item 1</div>
+    <div class="scroll-item">Item 2</div>
+    <div class="scroll-item">Item 3</div>
+    <div class="scroll-item">Item 4</div>
+    <div class="scroll-item">Item 5</div>
+    <div class="scroll-item">Item 6</div>
+    <div class="scroll-item">Item 7</div>
+    <div class="scroll-item">Item 8</div>
+  </div>
+</body>
+</html>
